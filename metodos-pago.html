@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Método de Pago | Bravo Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/logo.png.jpeg" alt="Bravo Shop Logo" class="logo" />
+    <h1 class="titulo">Método de Pago</h1>
+  </header>
+
+  <main class="main">
+    <section class="metodo-pago">
+      <p>Selecciona tu método de pago:</p>
+
+      <div class="opcion-pago">
+        <input type="radio" id="tarjeta" name="pago" checked />
+        <label for="tarjeta">💳 Tarjeta Visa</label>
+        <a href="tarjeta.html" class="btn-secundario">Continuar con tarjeta</a>
+      </div>
+
+      <div class="opcion-pago">
+        <input type="radio" id="efectivo" name="pago" />
+        <label for="efectivo">💵 Pago en efectivo (tiendas OXXO)</label>
+        <a href="efectivo.html" class="btn-secundario">Continuar con efectivo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <nav class="nav-footer">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Catálogo</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="ofertas.html">Ofertas</a>
+    </nav>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

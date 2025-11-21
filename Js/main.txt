@@ -1,0 +1,2 @@
+// main.js
+// Aquí puedes agregar funciones como agregar al carrito, alertas, etc.

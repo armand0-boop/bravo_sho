@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compra | Bravo Shop</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/logo.png.jpeg" alt="Bravo Shop Logo" class="logo" />
+    <h1 class="titulo">Resumen de Compra</h1>
+  </header>
+
+  <main class="main">
+    <section class="detalle-producto">
+      <img src="assets/productos/backpack-boyz.jpg" alt="Back Pack Boyz x Fino" class="imagen-producto" />
+      <h2>GORRA DE GAMUZA BACK PACK BOYZ X FINO</h2>
+      <p class="descripcion">Talla: Unitalla - Ajustable</p>
+      <p class="precio">$799</p>
+
+      <label for="cantidad">Cantidad:</label>
+      <div class="cantidad-selector">
+        <button onclick="cambiarCantidad(-1)">−</button>
+        <input type="number" id="cantidad" value="1" min="1" />
+        <button onclick="cambiarCantidad(1)">+</button>
+      </div>
+
+      <p class="disponible">Disponible</p>
+
+      <div class="acciones">
+        <a href="metodos-pago.html" class="btn-principal">Continuar</a>
+        <a href="productos.html" class="btn-secundario">Seguir comprando</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <nav class="nav-footer">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Catálogo</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="ofertas.html">Ofertas</a>
+    </nav>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
